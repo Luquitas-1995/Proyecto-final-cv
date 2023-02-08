@@ -1,0 +1,180 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/**body**/
+
+.body_backgraund {
+	background-image: url("imagenes/fondodecv.jpg");
+
+}
+
+/**Header css**/
+.header_1 {
+	height: 32vw;
+	border: 2px solid;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.header_1__h1 {
+	font-family: Arial narrow;
+	font-size: 5vw;
+	text-align: center;
+	margin-top: 3vw ;
+	display: inline-block;
+	margin-left: 1vw;
+	margin-top: 10vw
+}
+.header_1__img {
+	width: 30vw ;
+	height: auto;
+	margin-top: 1vw;
+	margin-right: 3vw;
+	border: 1px solid;
+	display: flex;
+	float: right;
+	border-radius: 30%;
+}
+.header_p {
+	font-family: Arial narrow;
+	font-size: 2vw;
+	text-align: initial;
+	margin-left: 1vw;
+}
+
+/** Main **/
+
+.Main_section {
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	display: block;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+.main_div_1 {
+	display: block;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+.main_div_2 {
+	display: block;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+/** Aside **/
+
+.aside {
+	display: inline-block;
+	border: 1px solid;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	padding-left: 1vw;
+}
+
+/** Footer **/
+
+.footer_div1 {
+	display: block;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+
+.footer_div2 {
+	display: block;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-family: Arial narrow;
+	font-size: 3vw;
+	text-align: initial;
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+
+/* botones footer **/
+
+.button_1 {
+	background-color: pink;
+	border: 1px solid;
+	font-family: sans-serif;
+	font-size: 2vw;
+	margin-top: 2vw;
+	display: inline-block;
+	content: 3vw;
+	padding: 1vw 1vw;
+	border-radius: 4px ;
+}
+.button_2 {
+	background-color: pink;
+	border: 1px solid;
+	font-family: sans-serif;
+	font-size: 2vw;
+	margin-top: 2vw;
+	margin-left: 3vw;
+	display: inline-block;
+	content: 3vw;
+	padding: 1vw 1vw;
+	border-radius: 4px ;
+}
+
+button:hover {
+	background-color: antiquewhite;
+}
+
+/* Links de redes-Footer **/
+
+#links_2_id {
+	display: none;
+}
+
+.a_face {
+	margin-top: 5vw;
+}
+
+.a_insta {
+	margin-top: 5vw;
+
+}
+
+.img_f {
+	width: 2em;
+	height: 2em;
+	margin-top: 3vw;
+}
+.img_i {
+	width: 2em;
+	height: 2em;
+	margin-top: 3vw;
+	margin-left: 3vw;
+}
